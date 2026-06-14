@@ -1,12 +1,12 @@
-\# Análisis Forense de Dispositivo Android Disfrazado como iPhone
+# Análisis Forense de Dispositivo Android Disfrazado como iPhone
 
 
 
-\## Descripción
+## Descripción
 
 
 
-Este caso tiene la finalidad de documentar una investigación de \*\*Mobile Forensics\*\* realizada sobre un dispositivo comercializado como un supuesto \*\*iPhone 17 Pro Max\*\*.
+Este caso tiene la finalidad de documentar una investigación de **Mobile Forensics** realizada sobre un dispositivo comercializado como un supuesto **iPhone 17 Pro Max**.
 
 
 
@@ -18,63 +18,63 @@ La investigación concluyó que el dispositivo no corresponde a un producto Appl
 
 
 
-\---
+---
 
 
 
-\## Objetivos
+## Objetivos
 
 
 
-\* Verificar la autenticidad del dispositivo.
+* Verificar la autenticidad del dispositivo.
 
-\* Identificar el sistema operativo real.
+* Identificar el sistema operativo real.
 
-\* Determinar el hardware utilizado.
+* Determinar el hardware utilizado.
 
-\* Detectar indicadores de falsificación o manipulación.
+* Detectar indicadores de falsificación o manipulación.
 
-\* Buscar artefactos digitales residuales.
+* Buscar artefactos digitales residuales.
 
-\* Documentar los hallazgos obtenidos.
-
-
-
-\---
+* Documentar los hallazgos obtenidos.
 
 
 
-\## Principales Hallazgos
+---
 
 
 
-\### Sistema Operativo
+## Principales Hallazgos
 
 
 
-\* Android 8.1
-
-\* Kernel Linux 3.18.79
-
-\* Arquitectura ARMv7
+### Sistema Operativo
 
 
 
-\### Hardware Identificado
+* Android 8.1
+
+* Kernel Linux 3.18.79
+
+* Arquitectura ARMv7
 
 
 
-\* Plataforma MediaTek
-
-\* GPU Mali-T720
-
-\* PMIC MT6311
-
-\* Registros internos compatibles con dispositivos MediaTek
+### Hardware Identificado
 
 
 
-\### Indicadores de Falsificación
+* Plataforma MediaTek
+
+* GPU Mali-T720
+
+* PMIC MT6311
+
+* Registros internos compatibles con dispositivos MediaTek
+
+
+
+### Indicadores de Falsificación
 
 
 
@@ -94,7 +94,7 @@ La evidencia técnica demostró que dicha información había sido modificada me
 
 
 
-\### Análisis de Evidencia Residual
+### Análisis de Evidencia Residual
 
 
 
@@ -102,15 +102,15 @@ Se realizó una revisión del almacenamiento interno en busca de:
 
 
 
-\* Fotografías
+* Fotografías
 
-\* Videos
+* Videos
 
-\* Documentos
+* Documentos
 
-\* Conversaciones
+* Conversaciones
 
-\* Cuentas configuradas
+* Cuentas configuradas
 
 
 
@@ -118,11 +118,11 @@ No se localizaron artefactos suficientes para asociar el dispositivo a usuarios 
 
 
 
-\---
+---
 
 
 
-\## Metodología
+## Metodología
 
 
 
@@ -130,19 +130,19 @@ La investigación se realizó mediante técnicas de adquisición lógica y anál
 
 
 
-\* Inspección visual
+* Inspección visual
 
-\* Menú de diagnóstico Android
+* Menú de diagnóstico Android
 
-\* Análisis del sistema operativo
+* Análisis del sistema operativo
 
-\* Identificación de hardware
+* Identificación de hardware
 
-\* Revisión de registros del sistema
+* Revisión de registros del sistema
 
-\* Exploración de particiones y almacenamiento
+* Exploración de particiones y almacenamiento
 
-\* Intentos de adquisición mediante ADB
+* Intentos de adquisición mediante ADB
 
 
 
@@ -150,61 +150,60 @@ No se realizaron procedimientos destructivos ni modificaciones al dispositivo.
 
 
 
-\---
+---
 
 
 
-\## Herramientas Utilizadas
+## Herramientas Utilizadas
 
 
 
-\* Device Info HW
+* Device Info HW
 
-\* Android Testing Menu
+* Android Testing Menu
 
-\* Chrome Diagnostics
+* Chrome Diagnostics
 
-\* Android Debug Bridge (ADB)
+* Android Debug Bridge (ADB)
 
-\* Explorador de Archivos Android
+* Explorador de Archivos Android
 
-\* Logs del Sistema
-
-
-
-\---
+* Logs del Sistema
 
 
 
-\## Competencias Aplicadas
+---
 
 
 
-\* Mobile Forensics
-
-\* Digital Forensics
-
-\* DFIR Fundamentals
-
-\* Android Analysis
-
-\* Análisis de Artefactos
-
-\* Recolección de Evidencia
-
-\* Identificación de Hardware
-
-\* Análisis de Logs
-
-\* Documentación Técnica
+## Competencias Aplicadas
 
 
 
-\---
+* Mobile Forensics
+
+* Digital Forensics
+
+* DFIR Fundamentals
+
+* Android Analysis
+
+* Análisis de Artefactos
+
+* Recolección de Evidencia
+
+* Identificación de Hardware
+
+* Análisis de Logs
+* Documentación Técnica
 
 
 
-\## Resultado
+---
+
+
+
+## Resultado
 
 
 
