@@ -1,4 +1,4 @@
-\# Análisis Forense de Dispositivo Android Disfrazado como iPhone
+# Análisis Forense de Dispositivo Android Disfrazado como iPhone
 
 
 
@@ -6,15 +6,15 @@
 
 
 
-\---
+---
 
 
 
-\# Resumen
+# Resumen
 
 
 
-Durante una investigación técnica se analizó un dispositivo presentado como un \*\*iPhone 17 Pro Max\*\*.
+Durante una investigación técnica se analizó un dispositivo presentado como un **iPhone 17 Pro Max**.
 
 
 
@@ -22,15 +22,15 @@ El objetivo fue determinar:
 
 
 
-\- Autenticidad del dispositivo.
+- Autenticidad del dispositivo.
 
-\- Sistema operativo real.
+- Sistema operativo real.
 
-\- Hardware subyacente.
+- Hardware subyacente.
 
-\- Evidencia de manipulación.
+- Evidencia de manipulación.
 
-\- Existencia de artefactos digitales residuales.
+- Existencia de artefactos digitales residuales.
 
 
 
@@ -38,49 +38,49 @@ La investigación concluyó que el equipo corresponde a un dispositivo Android b
 
 
 
-\---
+---
 
 
 
-\# Vista General del Caso
+# Vista General del Caso
 
 
 
-!\[frontal](Evidencia/frontal.jpeg)
+![frontal](Evidencia/frontal.jpeg)
 
 
 
-!\[reverso](Evidencia/reverso.jpeg)
+![reverso](Evidencia/reverso.jpeg)
 
 
 
-\---
+---
 
 
 
-\# Objetivos
+# Objetivos
 
 
 
-\- Verificar la autenticidad del dispositivo.
+- Verificar la autenticidad del dispositivo.
 
-\- Identificar sistema operativo y hardware reales.
+- Identificar sistema operativo y hardware reales.
 
-\- Detectar indicadores de manipulación.
+- Detectar indicadores de manipulación.
 
-\- Analizar el almacenamiento disponible.
+- Analizar el almacenamiento disponible.
 
-\- Buscar evidencia residual.
+- Buscar evidencia residual.
 
-\- Documentar hallazgos técnicos.
-
-
-
-\---
+- Documentar hallazgos técnicos.
 
 
 
-\# Alcance
+---
+
+
+
+# Alcance
 
 
 
@@ -92,29 +92,29 @@ No se realizaron:
 
 
 
-\- Extracción física de memoria.
+- Extracción física de memoria.
 
-\- ISP.
+- ISP.
 
-\- JTAG.
+- JTAG.
 
-\- Chip-Off.
+- Chip-Off.
 
-\- Root del dispositivo.
+- Root del dispositivo.
 
-\- Modificación del firmware.
-
-
-
-\---
+- Modificación del firmware.
 
 
 
-\# Metodología
+---
 
 
 
-\## Fase 1 - Inspección Inicial
+# Metodología
+
+
+
+## Fase 1 - Inspección Inicial
 
 
 
@@ -122,23 +122,23 @@ Se realizó una inspección visual del equipo.
 
 
 
-\### Observaciones
+### Observaciones
 
 
 
-\- Apariencia similar a dispositivos Apple.
+- Apariencia similar a dispositivos Apple.
 
-\- Interfaz basada en iOS.
+- Interfaz basada en iOS.
 
-\- Inconsistencias observadas durante la operación.
-
-
-
-\---
+- Inconsistencias observadas durante la operación.
 
 
 
-\# Fase 2 - Identificación del Sistema Operativo
+---
+
+
+
+# Fase 2 - Identificación del Sistema Operativo
 
 
 
@@ -148,21 +148,21 @@ Se accedió al menú de pruebas Android utilizando:
 
 ```text
 
-\*#\*#4636#\*#\*
+*#*#4636#*#*
 
 ```
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[android\_testing\_menu](Evidencia/android\_testing\_menu.jpeg)
+![android_testing_menu](Evidencia/android_testing_menu.jpeg)
 
 
 
-\### Hallazgo
+### Hallazgo
 
 
 
@@ -170,43 +170,43 @@ La presencia del menú de pruebas Android confirma que el dispositivo no ejecuta
 
 
 
-\---
+---
 
 
 
-\# Fase 3 - Análisis del Sistema
+# Fase 3 - Análisis del Sistema
 
 
 
-\## Información General
+## Información General
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[informacion\_general](Evidencia/informacion\_general.jpeg)
+![informacion_general](Evidencia/informacion_general.jpeg)
 
 
 
-\---
+---
 
 
 
-\## Device Info HW - General
+## Device Info HW - General
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[device\_info\_general](Evidencia/device\_info\_general.jpeg)
+![device_info_general](Evidencia/device_info_general.jpeg)
 
 
 
-\### Hallazgos
+### Hallazgos
 
 
 
@@ -224,99 +224,99 @@ La presencia del menú de pruebas Android confirma que el dispositivo no ejecuta
 
 
 
-\---
+---
 
 
 
-\## Device Info HW - SoC
+## Device Info HW - SoC
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[device\_info\_soc](Evidencia/device\_info\_soc.jpeg)
+![device_info_soc](Evidencia/device_info_soc.jpeg)
 
 
 
-\### Hallazgos
+### Hallazgos
 
 
 
-\- Arquitectura Cortex-A53
+- Arquitectura Cortex-A53
 
-\- GPU Mali-T720
+- GPU Mali-T720
 
-\- Arquitectura de 32 bits
+- Arquitectura de 32 bits
 
 
 
-\---
+---
 
 
 
-\## Device Info HW - System
+## Device Info HW - System
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[device\_info\_system](Evidencia/device\_info\_system.jpeg)
+![device_info_system](Evidencia/device_info_system.jpeg)
 
 
 
-\---
+---
 
 
 
-\## Device Info HW - Sensores
+## Device Info HW - Sensores
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[device\_info\_sensors](Evidencia/device\_info\_sensors.jpeg)
+![device_info_sensors](Evidencia/device_info_sensors.jpeg)
 
 
 
-\### Sensores Funcionales
+### Sensores Funcionales
 
 
 
-\- Acelerómetro
+- Acelerómetro
 
-\- Sensor de luz
+- Sensor de luz
 
-\- Sensor de proximidad
+- Sensor de proximidad
 
 
 
-\### Sensores Declarados pero No Funcionales
+### Sensores Declarados pero No Funcionales
 
 
 
-\- Magnetómetro
+- Magnetómetro
 
-\- Giroscopio
+- Giroscopio
 
-\- Barómetro
+- Barómetro
 
 
 
-\---
+---
 
 
 
-\# Fase 4 - Análisis de Hardware
+# Fase 4 - Análisis de Hardware
 
 
 
-\## CPU Reportada
+## CPU Reportada
 
 
 
@@ -332,7 +332,7 @@ Apple A18 Pro T
 
 
 
-\### Resultado
+### Resultado
 
 
 
@@ -340,39 +340,39 @@ La información fue identificada como falsa.
 
 
 
-\### Motivos
+### Motivos
 
 
 
-\- Android 8.1
+- Android 8.1
 
-\- Arquitectura ARMv7
+- Arquitectura ARMv7
 
-\- GPU Mali-T720
+- GPU Mali-T720
 
-\- Kernel Linux 3.18
+- Kernel Linux 3.18
 
-\- Componentes MediaTek
-
-
-
-\---
+- Componentes MediaTek
 
 
 
-\## PMIC
+---
 
 
 
-\### Evidencia
+## PMIC
 
 
 
-!\[pmic](Evidencia/pmic.jpeg)
+### Evidencia
 
 
 
-\### Hallazgo
+![pmic](Evidencia/pmic.jpeg)
+
+
+
+### Hallazgo
 
 
 
@@ -388,27 +388,27 @@ Componente asociado a plataformas MediaTek.
 
 
 
-\---
+---
 
 
 
-\# Fase 5 - Evidencia MediaTek
+# Fase 5 - Evidencia MediaTek
 
 
 
-\## Logs del Sistema
+## Logs del Sistema
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[kernel](Evidencia/kernel.jpeg)
+![kernel](Evidencia/kernel.jpeg)
 
 
 
-\### Indicadores Encontrados
+### Indicadores Encontrados
 
 
 
@@ -416,9 +416,9 @@ Componente asociado a plataformas MediaTek.
 
 mtklog
 
-meta\_tst
+meta_tst
 
-mt\_cpufreq
+mt_cpufreq
 
 MUSB
 
@@ -428,7 +428,7 @@ MTK charger
 
 
 
-\### Conclusión
+### Conclusión
 
 
 
@@ -436,27 +436,27 @@ Los registros del sistema muestran evidencia consistente con hardware MediaTek.
 
 
 
-\---
+---
 
 
 
-\# Fase 6 - Diagnóstico mediante Chrome
+# Fase 6 - Diagnóstico mediante Chrome
 
 
 
-\## Chrome Version y GPU
+## Chrome Version y GPU
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[chrome\_gpu/Evidencia/chrome\_gpu.jpeg]
+![chrome_gpu](/Evidencia/chrome_gpu.jpeg)
 
 
 
-\### Hallazgos
+### Hallazgos
 
 
 
@@ -482,43 +482,43 @@ Esta evidencia constituye una de las pruebas más sólidas para identificar el h
 
 
 
-\---
+---
 
 
 
-\# Fase 7 - Análisis del Almacenamiento
+# Fase 7 - Análisis del Almacenamiento
 
 
 
-\## Estructura Android
+## Estructura Android
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[android_folders](Evidencia/android_folders.jpeg)
+![android_folders](Evidencia/android_folders.jpeg)
 
 
 
-\---
+---
 
 
 
-\## Particiones
+## Particiones
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[particiones](Evidencia/particiones.jpeg)
+![particiones](Evidencia/particiones.jpeg)
 
 
 
-\### Particiones Observadas
+### Particiones Observadas
 
 
 
@@ -536,27 +536,27 @@ Esta evidencia constituye una de las pruebas más sólidas para identificar el h
 
 
 
-\---
+---
 
 
 
-\## Revisión de Directorios
+## Revisión de Directorios
 
 
 
-\### Evidencia
+### Evidencia
 
 
 
-!\[android_data](Evidencia/android_data.jpeg)
+![android_data](Evidencia/android_data.jpeg)
 
 
 
-!\[whatsapp_folders](Evidencia/whatsapp_folders.jpeg)
+![whatsapp_folders](Evidencia/whatsapp_folders.jpeg)
 
 
 
-\### Resultado
+### Resultado
 
 
 
@@ -564,41 +564,41 @@ No se localizaron:
 
 
 
-\- Fotografías
+- Fotografías
 
-\- Videos
+- Videos
 
-\- Documentos
+- Documentos
 
-\- Conversaciones
+- Conversaciones
 
-\- Respaldos
+- Respaldos
 
-\- Cuentas configuradas
-
-
-
-\---
+- Cuentas configuradas
 
 
 
-\# Fase 8 - Intentos de Adquisición Avanzada
+---
 
 
 
-\## Android Debug Bridge (ADB)
+# Fase 8 - Intentos de Adquisición Avanzada
 
 
 
-\### Evidencia
+## Android Debug Bridge (ADB)
 
 
 
-!\[adb_devices](Evidencia/adb_devices.jpeg)
+### Evidencia
 
 
 
-\### Resultado
+![adb_devices](Evidencia/adb_devices.jpeg)
+
+
+
+### Resultado
 
 
 
@@ -614,11 +614,11 @@ Sin dispositivos detectados.
 
 
 
-\---
+---
 
 
 
-\# Correlación de Evidencia
+# Correlación de Evidencia
 
 
 
@@ -642,11 +642,11 @@ Sin dispositivos detectados.
 
 
 
-\---
+---
 
 
 
-\# Hipótesis del Hardware Real
+# Hipótesis del Hardware Real
 
 
 
@@ -662,15 +662,15 @@ Sin dispositivos detectados.
 
 
 
-\---
+---
 
 
 
-\# Hallazgos Principales
+# Hallazgos Principales
 
 
 
-\## Confirmado
+## Confirmado
 
 
 
@@ -690,11 +690,11 @@ Sin dispositivos detectados.
 
 
 
-\---
+---
 
 
 
-\## No Encontrado
+## No Encontrado
 
 
 
@@ -713,11 +713,11 @@ Sin dispositivos detectados.
 ❌ Evidencia atribuible a usuarios previos.
 
 
-\---
+---
 
 
 
-\# Conclusión
+# Conclusión
 
 
 
@@ -729,69 +729,63 @@ La evidencia recopilada permitió identificar múltiples indicadores de falsific
 
 
 
-\---
+---
 
 
 
-\# Competencias Aplicadas
+# Competencias Aplicadas
 
 
 
-\- Mobile Forensics
+- Mobile Forensics
 
-\- Android Analysis
+- Android Analysis
 
-\- Digital Forensics
+- Digital Forensics
 
-\- DFIR Fundamentals
+- DFIR Fundamentals
 
-\- Artifact Analysis
+- Artifact Analysis
 
-\- Hardware Identification
+- Hardware Identification
 
-\- Log Analysis
+- Log Analysis
 
-\- Technical Documentation
+- Technical Documentation
 
-\- Evidence Collection
+- Evidence Collection
 
-\- Incident Documentation
-
-
-
-\---
+- Incident Documentation
 
 
 
-\# Herramientas Utilizadas
+---
 
 
 
-\- Device Info HW
-
-\- Chrome Diagnostics
-
-\- Android Testing Menu
-
-\- Explorador de Archivos Android
-
-\- Logs del Sistema
-
-\- Android Debug Bridge (ADB)
+# Herramientas Utilizadas
 
 
 
-\---
+- Device Info HW
+
+- Chrome Diagnostics
+
+- Android Testing Menu
+
+- Explorador de Archivos Android
+
+- Logs del Sistema
+
+- Android Debug Bridge (ADB)
 
 
 
-\# Disclaimer
+---
 
 
 
-Toda la información potencialmente identificable fue eliminada o anonimizada antes de la publicación de este caso.
-
-
+# Disclaimer
 
 Este repositorio tiene fines exclusivamente educativos, de investigación y desarrollo profesional.
 
