@@ -548,11 +548,11 @@ Esta evidencia constituye una de las pruebas más sólidas para identificar el h
 
 
 
-![android_data](Evidencia/android_data.jpeg)
+![android_data](Evidencia/android_data.png)
 
 
 
-![whatsapp_folders](Evidencia/whatsapp_folders.jpeg)
+![whatsapp_folders](Evidencia/whatsapp_folders.png)
 
 
 
@@ -594,7 +594,7 @@ No se localizaron:
 
 
 
-![adb_devices](Evidencia/adb_devices.jpeg)
+![adb_devices](Evidencia/adb_devices.png)
 
 
 
