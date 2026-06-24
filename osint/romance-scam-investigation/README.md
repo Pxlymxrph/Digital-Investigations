@@ -24,52 +24,31 @@ Verificar la autenticidad del perfil, identificar inconsistencias en su narrativ
 
 
 
-## Metodología
+## Flujo de Investigación
 
+```mermaid
+flowchart TD
 
+A[Perfil Bumble]
+B[WhatsApp]
+C[Fotos y Videos]
+D[Correlación Visual]
+E[Reverse Image Search]
+F[Pivoting]
 
-```text
+G[Canary Token]
+H[IP]
+I[Geolocalización Aproximada]
 
-Perfil Bumble
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
 
-     ↓
-
-WhatsApp
-
-     ↓
-
-Fotos y Videos
-
-     ↓
-
-Correlación Visual
-
-     ↓
-
-Reverse Image Search
-
-     ↓
-
-Pivoting
-
-
-
-Canary Token
-
-     ↓
-
-IP
-
-     ↓
-
-Geolocalización Aproximada
-
+G --> H
+H --> I
 ```
-
-
-
----
-
 
 
 ## Técnicas Utilizadas
