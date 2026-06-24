@@ -8,7 +8,7 @@ Se analizó un perfil conocido mediante una app de citas que presentaba inconsis
 
 
 
-\---
+---
 
 ### Contexto inicial
 
@@ -18,7 +18,7 @@ Después de aproximadamente cinco días la victima empezó a notar inconsistenci
 
 
 
-\---
+---
 
 ### Objetivo de la investigación
 
@@ -30,7 +30,7 @@ Después de aproximadamente cinco días la victima empezó a notar inconsistenci
 
 
 
-\---
+---
 
 ### Alcance
 
@@ -38,7 +38,7 @@ La investigación se realizó únicamente con información proporcionada por la 
 
 
 
-\---
+---
 
 ### Diagrama de Investigación
 
@@ -66,13 +66,13 @@ Nigeria
 
 
 
-\---
+---
 
 ### Metodología
 
 #### **Fase 1: Recolección inicial**
 
-* Número telefónico: +44 7777 \*\*\*\*\*\*
+* Número telefónico: +44 7777 ******
 * Narrativa: Al principio generó confianza; posteriormente se volvió confusa, contradictoria o ilógica
 * Datos declarados:
 
@@ -125,7 +125,7 @@ Nigeria
 
 
 
-\---
+---
 
 ### **Línea de tiempo**
 
@@ -139,33 +139,33 @@ Nigeria
 
 
 
-\---
+---
 
 ### Indicadores
 
 * Indicador 1 - Confianza: Alto. Inconsistencia de ubicación: El perfil declaró estar en un país/ciudad, pero ciertos indicadores técnicos/contextuales apuntaban a otra región.
 
-!\[ip.png](imagenes/ip.png)
+![ip.png](imagenes/ip.png)
 
 * Indicador 2 - Confianza: Alto. Patrón compatible con scam romántico/sextorsión: Love bombing, evasión de videollamada, contradicciones, urgencia emocional y posterior amenaza
 
-!\[narrativa2.png](imagenes/narrativa2.png)
+![narrativa2.png](imagenes/narrativa2.png)
 
 * Indicador 3 - Confianza: Alta. Negativa persistente a videollamadas. El individuo da explicaciones confusas, incompletas, incoherentes e ilógicas del porqué no le es posible hacer uso de las cámaras del celular
 
-!\[narrativa.png](imagenes/narrativa.png)
+![narrativa.png](imagenes/narrativa.png)
 
 * Indicador 4 - Confianza.: Alto. Uso de material visual posiblemente reutilizado: Las imágenes contenían elementos difíciles de atribuir directamente al perfil, como el espejo dorado y espacios asociados a terceros.
 
-!\[espejo.jpeg](imagenes/espejo.png)
+![espejo.jpeg](imagenes/espejo.png)
 
 * Indicador 5 - Confianza: Muy Alto. Riesgo para la víctima: Existía posible riesgo de exposición de fotos íntimas personales y contacto con redes sociales
 
-!\[mapy.png](imagenes/mapy.png)
+![mapy.png](imagenes/mapy.png)
 
 
 
-\---
+---
 
 ### Matriz de confianza
 
@@ -180,17 +180,17 @@ Nigeria
 
 
 
-\---
+---
 
 ### Contención
 
 Debido al riesgo percibido de exposición de información personal, se implementó monitoreo preventivo de posibles filtraciones.
 
-!\[mapy2.png](imágenes/mapy2.ng)
+![mapy2.png](imágenes/mapy2.ng)
 
 
 
-\---
+---
 
 ### Conclusión
 
@@ -198,7 +198,7 @@ La suma de los indicadores obtenidos incrementa significativamente la probabilid
 
 
 
-\---
+---
 
 ### Limitaciones
 
@@ -209,7 +209,7 @@ La suma de los indicadores obtenidos incrementa significativamente la probabilid
 * La ubicación obtenida representa únicamente una evidencia contextual
 * 
 
-\---
+---
 
 ### 
 
@@ -219,7 +219,7 @@ Se redujo el riesgo inmediato mediante bloqueo, restricción de perfiles, preser
 
 
 
-\---
+---
 
 ### 
 
@@ -227,25 +227,25 @@ Se redujo el riesgo inmediato mediante bloqueo, restricción de perfiles, preser
 
 * Anexo 1. Narrativa típica de scammers y fraude romántico
 
-!\[narrativa-completa.png](imagenes/narrativa-completa.png)
+![narrativa-completa.png](imagenes/narrativa-completa.png)
 
-!\[narrativa-completa2.png](imagenes/narrativa-completa2.png)
+![narrativa-completa2.png](imagenes/narrativa-completa2.png)
 
 * Anexo 2. Verificación aproximada de dirección IP mediante Canary Token
 
-!\[canary1.png](imagenes/canary1.png)
+![canary1.png](imagenes/canary1.png)
 
-!\[canary2.png](imagenes/canary2.png)
+![canary2.png](imagenes/canary2.png)
 
 * Anexo 3. Pivoting y correlación con una publicación en el mismo lugar
 
-!\[espejo-completo.png](imagenes/espejo-completo.png)
+![espejo-completo.png](imagenes/espejo-completo.png)
 
-!\[pivot-espejo.png](imágenes/pivot-espejo.png)
+![pivot-espejo.png](imágenes/pivot-espejo.png)
 
 
 
-\---
+---
 
 ### Herramientas empleadas
 
@@ -261,7 +261,7 @@ Se redujo el riesgo inmediato mediante bloqueo, restricción de perfiles, preser
 
 
 
-\---
+---
 
 ### Evaluación final
 
@@ -276,5 +276,5 @@ Se redujo el riesgo inmediato mediante bloqueo, restricción de perfiles, preser
 
 
 
-\---
+---
 
