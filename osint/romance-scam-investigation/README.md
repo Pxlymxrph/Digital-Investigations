@@ -1,6 +1,6 @@
-\# OSINT Case Study 01
+# OSINT Case Study 01
 
-\## Investigación de posible scam romántico y sextorsión
+## Investigación de posible scam romántico y sextorsión
 
 
 
@@ -8,11 +8,11 @@ Investigación OSINT realizada sobre un perfil conocido mediante una aplicación
 
 
 
-\---
+---
 
 
 
-\## Objetivo
+## Objetivo
 
 
 
@@ -20,11 +20,11 @@ Verificar la autenticidad del perfil, identificar inconsistencias en su narrativ
 
 
 
-\---
+---
 
 
 
-\## Metodología
+## Metodología
 
 
 
@@ -68,35 +68,35 @@ Geolocalización Aproximada
 
 
 
-\---
+---
 
 
 
-\## Técnicas Utilizadas
+## Técnicas Utilizadas
 
 
 
-\- OSINT
+- OSINT
 
-\- Reverse Image Search
+- Reverse Image Search
 
-\- Pivoting
+- Pivoting
 
-\- Análisis contextual
+- Análisis contextual
 
-\- Correlación visual
+- Correlación visual
 
-\- Evaluación de riesgo
+- Evaluación de riesgo
 
-\- Preservación de evidencia
-
-
-
-\---
+- Preservación de evidencia
 
 
 
-\## Hallazgos Principales
+---
+
+
+
+## Hallazgos Principales
 
 
 
@@ -118,33 +118,33 @@ Geolocalización Aproximada
 
 
 
-\---
+---
 
 
 
-\## Herramientas Utilizadas
+## Herramientas Utilizadas
 
 
 
-\- Google Dorks
+- Google Dorks
 
-\- Reverse Image Search
+- Reverse Image Search
 
-\- Canary Tokens
+- Canary Tokens
 
-\- Instagram
+- Instagram
 
-\- WhatsApp
+- WhatsApp
 
-\- Navegador Web
-
-
-
-\---
+- Navegador Web
 
 
 
-\## Resultado
+---
+
+
+
+## Resultado
 
 
 
@@ -156,67 +156,67 @@ Las medidas de contención implementadas permitieron reducir el riesgo para la p
 
 
 
-\---
+---
 
 
 
-\## Evidencias
+## Evidencias
 
 
 
-\### Correlación Visual
+### Correlación Visual
 
 
 
-!\[espejo](imagenes/espejo.png)
+![espejo](imagenes/espejo.png)
 
 
 
-\### Indicadores Técnicos
+### Indicadores Técnicos
 
 
 
-!\[ip](imagenes/ip.png)
+![ip](imagenes/ip.png)
 
 
 
-\### Narrativa Observada
+### Narrativa Observada
 
 
 
-!\[narrativa](imagenes/narrativa.png)
+![narrativa](imagenes/narrativa.png)
 
 
 
-\---
+---
 
 
 
-\## Competencias Demostradas
+## Competencias Demostradas
 
 
 
-\- Open Source Intelligence (OSINT)
+- Open Source Intelligence (OSINT)
 
-\- Investigación digital
+- Investigación digital
 
-\- Threat Intelligence básica
+- Threat Intelligence básica
 
-\- Análisis de fraude
+- Análisis de fraude
 
-\- Evaluación de riesgo
+- Evaluación de riesgo
 
-\- Elaboración de reportes
+- Elaboración de reportes
 
-\- Documentación técnica
-
-
-
-\---
+- Documentación técnica
 
 
 
-\## Documentación Completa
+---
+
+
+
+## Documentación Completa
 
 
 
@@ -232,11 +232,11 @@ report.md
 
 
 
-\---
+---
 
 
 
-\## Descargo de Responsabilidad
+## Descargo de Responsabilidad
 
 
 
