@@ -32,23 +32,23 @@ Verificar la autenticidad del perfil, identificar inconsistencias en su narrativ
 
 Perfil Bumble
 
-&#x20;     ↓
+     ↓
 
 WhatsApp
 
-&#x20;     ↓
+     ↓
 
 Fotos y Videos
 
-&#x20;     ↓
+     ↓
 
 Correlación Visual
 
-&#x20;     ↓
+     ↓
 
 Reverse Image Search
 
-&#x20;     ↓
+     ↓
 
 Pivoting
 
@@ -56,11 +56,11 @@ Pivoting
 
 Canary Token
 
-&#x20;     ↓
+     ↓
 
 IP
 
-&#x20;     ↓
+     ↓
 
 Geolocalización Aproximada
 
