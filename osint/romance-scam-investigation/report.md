@@ -186,7 +186,7 @@ Nigeria
 
 Debido al riesgo percibido de exposición de información personal, se implementó monitoreo preventivo de posibles filtraciones.
 
-![mapy2.png](imagenes/mapy2.ng)
+![mapy2.png](imagenes/mapy2.png)
 
 
 
